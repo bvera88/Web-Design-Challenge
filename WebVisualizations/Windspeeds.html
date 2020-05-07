@@ -5,38 +5,76 @@
 <head>
     <meta charset="UTF-8">
     <title>Wind Speeds</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
     
 </head>
 
 <body>
 
-    <h1>Wind Speeds</h1>
+  <nav class ="navbar navbar-default">
+    <div class="container">
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="Visualization.html">
+          <span class="nav-color navbaractive">Latitude</span>
+        </a>
+      </div>
+
+      <div class="nav navbar-nav navbar-right">
+    
+      
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="Max_Temp.html">Max Temperature</a></li>
+              <li><a href="Humidity.html">Humidity</a></li>
+              <li><a href="Cloudiness.html">Cloudiness</a></li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href = "Comparison.html" > Compare</a>
+        </li>
+        <li>
+          <a href = "Data_page.html" > Data</a>
+        </li>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7"></div>
+        <div class="main-box whiteback">
+          <h1>Wind Speeds</h1>
+          <hr>
+    
 
     <img src="Fig4.png"alt="fig4" />
     <p>
         What's most interesting about the plot below is the bundled volume of percentages within 10mph. 
         What also should be noted is that the volume is with -30 to 80 Latitude. 
     </p>
+  </div>  
+</div>
+</div>
 
-    <h2>Visualization</h2>
+<div class="col-md-5">
+<div class="side-box">
+  <h2 class = "main-pg-header">Visualtizations</h2>
+  <hr>
+  <div class = "sidebar">
+    <a href="Max_Temp.html"><img src="Fig1.png"></a>
+    <a href="Humidity.html"><img src="Fig2.png"></a>
+    <a href="Cloudiness.html"><img src="Fig3.png"></a>
+</div>
+</div>
 
-    <p>
-        <a href="Max_Temp.html">
-          <img src="Fig1.png">
-        </a>
-      </p>
-
-    <p>
-        <a href="Humidity.html">
-          <img src="Fig2.png">
-        </a>
-      </p>
-
-      <p>
-        <a href="Cloudiness.html">
-          <img src="Fig3.png">
-        </a>
-      </p> 
+<footer>
+<div class="footer">Copyright &copy; Brian Vera 2018</div>
+</footer>
 
 </body>
 </html>

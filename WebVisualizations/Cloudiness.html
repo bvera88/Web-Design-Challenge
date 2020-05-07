@@ -5,40 +5,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Cloudiness</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     
 </head>
 
 <body>
+  <nav class ="navbar navbar-default">
+    <div class="container">
 
-    <h1>Cloudiness</h1>
-
-    <img src="Fig3.png"alt="fig3" />
-
-    <p>
-        What's most interesting about the Cloudiness data, is that there appears to be little to no cloudiness within the month of January when closer to the equator. 
-        We do see a a variety of percentages throughout this plot, but many are within the 0 percentil. 
-        However, there does appear to be a greater volume around 40 to 80 Latitude than -40 to -60
-   </p>
-
-    <h2>Visualization</h2>
-
-    <p>
-        <a href="Max_Temp.html">
-          <img src="Fig1.png">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="Visualization.html">
+          <span class="nav-color navbaractive">Latitude</span>
         </a>
-      </p>
+      </div>
 
-    <p>
-        <a href="Humidity.html">
-          <img src="Fig2.png">
-        </a>
-      </p>
+      <div class="nav navbar-nav navbar-right">
+    
+      
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="Max_Temp.html">Max Temperature</a></li>
+              <li><a href="Humidity.html">Humidity</a></li>
+              <li><a href="Windspeeds.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href = "Comparison.html" > Compare</a>
+        </li>
+        <li>
+          <a href = "Data_page.html" > Data</a>
+        </li>
+      </div>
 
-      <p>
-        <a href="Windspeeds.html">
-          <img src="Fig4.png">
-        </a>
-      </p>  
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7"></div>
+        <div class="main-box whiteback">
+          <h1>Cloudiness</h1>>
+          <hr>
+          <img src="Fig3.png"alt="fig3" />
+
+          <p> 
+          What's most interesting about the Cloudiness data, is that there appears to be little to no cloudiness within the month of January when closer to the equator. 
+          We do see a a variety of percentages throughout this plot, but many are within the 0 percentil. 
+          However, there does appear to be a greater volume around 40 to 80 Latitude than -40 to -60
+          </p>
+
+        </div>  
+      </div>
+    </div>
+  </div>
+
+<div class="col-md-5">
+  <div class="side-box">
+    <h2 class = "main-pg-header">Visualtizations</h2>
+    <hr>
+    <div class = "sidebar">
+      <a href="Max_Temp.html"><img src="Fig1.png"></a>
+      <a href="Humidity.html"><img src="Fig2.png"></a>
+      <a href="Cloudiness.html"><img src="Fig3.png"></a>
+      <a href="Windspeeds.html"><img src="Fig4.png"></a>
+  </div>
+</div> 
  
 
 </body>

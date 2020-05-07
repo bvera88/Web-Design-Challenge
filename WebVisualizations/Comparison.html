@@ -5,10 +5,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Comparing The Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     
 </head>
 
 <body>
+    <nav class ="navbar navbar-default">
+        <div class="container">
+    
+          <div class="navbar-header">
+            <a class="navbar-brand" href="Visualization.html">
+              <span class="nav-color navbaractive">Latitude</span>
+            </a>
+          </div>
+    
+          <div class="nav navbar-nav navbar-right">
+        
+          
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="Max_Temp.html">Max Temperature</a></li>
+                  <li><a href="Humidity.html">Humidity</a></li>
+                  <li><a href="Cloudiness.html">Cloudiness</a></li>
+                  <li><a href="Windspeeds.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            
+            <li>
+              <a href = "Data_page.html" > Data</a>
+            </li>
+          </div>
+    
+        </div>
+      </nav>
 
     <h1>Comparison: Latitiude vs X</h1>
     
@@ -16,17 +46,17 @@
 
     <p>Click any plot to get an in-depth analysis</p>
 
-    <h2>vs. Max Temperature</h2>
-    <img src="Fig1.png"alt="fig1" />
-
-    <h3>vs. Humidity</h3>
-    <img src="Fig2.png"alt ="fig2"/>
-
-    <h4>vs. Cloudiness</h4>
-    <img src="Fig3.png"alt ="fig3"/>
-
-    <h5>vs. Wind Speed</h5>
-    <img src="Fig4.png"alt ="fig4"/>
+    <div class="col-md-5">
+        <div class="side-box">
+          <h2 class = "main-pg-header">All Plots</h2>
+          <hr>
+          <div class = "sidebar">
+            <a href="Max_Temp.html"><img src="Fig1.png"></a>
+            <a href="Humidity.html"><img src="Fig2.png"></a>
+            <a href="Cloudiness.html"><img src="Fig3.png"></a>
+            <a href="Windspeeds.html"><img src="Fig4.png"></a>
+        </div>
+      </div>
 
 </body>
 

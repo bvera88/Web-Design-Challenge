@@ -10,34 +10,65 @@
 
 <body>
 
-    <h1>Humidity</h1>
+  <nav class ="navbar navbar-default">
+    <div class="container">
 
-    <img src="Fig2.png"alt="fig2" />
-    <p>
-        In this graph we can see that humidity levels are high when close to 0. Deg Latitude. 
-        As we move further away from the equator, we see a lower percentage of high humidity levels. 
-
-    </p>
-
-    <h2>Visualization</h2>
-
-    <p>
-        <a href="Max_Temp.html">
-          <img src="Fig1.png">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="Visualization.html">
+          <span class="nav-color navbaractive">Latitude</span>
         </a>
-      </p>
+      </div>
 
-    <p>
-        <a href="Cloudiness.html">
-          <img src="Fig3.png">
-        </a>
-      </p>
+      <div class="nav navbar-nav navbar-right">
+    
+      
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="Max_Temp.html">Max Temperature</a></li>
+              <li><a href="Cloudiness.html">Cloudiness</a></li>
+              <li><a href="Windspeeds.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href = "Comparison.html" > Compare</a>
+        </li>
+        <li>
+          <a href = "Data_page.html" > Data</a>
+        </li>
+      </div>
 
-      <p>
-        <a href="Windspeeds.html">
-          <img src="Fig4.png">
-        </a>
-      </p> 
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7"></div>
+        <div class="main-box whiteback">
+          <h1>Humidity</h1>
+          <hr>
+          <img src="Fig2.png"alt="fig2" />
+          <p>
+          In this graph we can see that humidity levels are high when close to 0. Deg Latitude. 
+          As we move further away from the equator, we see a lower percentage of high humidity levels.
+         </p>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+<div class="col-md-5">
+<div class="side-box">
+    <h2 class = "main-pg-header">Visualtizations</h2>
+    <hr>
+    <div class = "sidebar">
+      <a href="Max_Temp.html"><img src="Fig1.png"></a>
+      <a href="Cloudiness.html"><img src="Fig3.png"></a>
+      <a href="Windspeeds.html"><img src="Fig4.png"></a>
+    </div>
+  </div>
+</div>
 
 </body>
 
